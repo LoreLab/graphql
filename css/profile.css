@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    container-type: inline-size;
+}
+
+h1 {
+    text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size: 4vw;
+    font-weight: bolder;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* font-size: 5cqw; */
+}
+::-webkit-scrollbar {
+    width: 5px;
+    margin-left: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+
+radar-chart {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+bar-chart,
+pie-chart {
+    aspect-ratio: 1/1;
+}
